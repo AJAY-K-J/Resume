@@ -1,338 +1,580 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="utf-8">
-    <title> AJAY K J</title>
-    <meta content="width=device-width, initial-scale=1.0" name="viewport">
-    <meta content="" name="keywords">
-    <meta content="" name="description">
+  <head>
+    <meta charset="utf-8" />
+    <title>AJAY K J</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <meta content="" name="keywords" />
+    <meta content="" name="description" />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
     <!-- Favicon -->
-    <link href="img/icn.png" rel="icon">
+    <link href="img/icn.png" rel="icon" />
 
     <!-- Google Web Fonts -->
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
 
     <!-- Font Awesome -->
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css"
+      rel="stylesheet"
+    />
 
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+      integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l"
+      crossorigin="anonymous"
+    />
     <!-- Libraries Stylesheet -->
-    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
-    <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet" />
+    <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet" />
 
     <!-- Customized Bootstrap Stylesheet -->
-    <link href="css/style.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet" />
+  </head>
 
-
-</head>
-
-<body data-spy="scroll" data-target=".navbar" data-offset="51">
+  <body data-spy="scroll" data-target=".navbar" data-offset="51">
     <!-- Navbar Start -->
-    <nav class="navbar fixed-top shadow-sm navbar-expand-lg bg-light navbar-light py-3 py-lg-0 px-lg-5">
-        <a href="index.html" class="navbar-brand ml-lg-3">
-            <h1 class="m-0 display-5"><span class="text-dark"></span>AJAY K J</h1>
-        </a>
-        <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse px-lg-3" id="navbarCollapse">
-            <div class="navbar-nav m-auto py-0">
-                <a href="#home" class="nav-item nav-link active">Home</a>
-                <a href="#about" class="nav-item nav-link">About</a>
-                <a href="#qualification" class="nav-item nav-link">Quality</a>
-                <a href="#skill" class="nav-item nav-link">Skill</a>
-                <a href="#service" class="nav-item nav-link">Badges</a>
-                <a href="#portfolio" class="nav-item nav-link">Portfolio</a>
-               <!-- <a href="#testimonial" class="nav-item nav-link">Review</a>-->
-                <a href="#contact" class="nav-item nav-link">Contact</a>
-            </div>
-            <a href="#contact" class="btn btn-menu d-none d-lg-block" style="background-color:#242424; color: #ffffff;">Hire Me</a>
+    <nav
+      class="
+        navbar
+        fixed-top
+        shadow-sm
+        navbar-expand-lg
+        bg-light
+        navbar-light
+        py-3 py-lg-0
+        px-lg-5
+      "
+    >
+      <a href="index.html" class="navbar-brand ml-lg-3">
+        <h1 class="m-0 display-5"><span class="text-dark"></span>AJAY K J</h1>
+      </a>
+      <button
+        type="button"
+        class="navbar-toggler"
+        data-toggle="collapse"
+        data-target="#navbarCollapse"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse px-lg-3" id="navbarCollapse">
+        <div class="navbar-nav m-auto py-0">
+          <a href="#home" class="nav-item nav-link active">Home</a>
+          <a href="#about" class="nav-item nav-link">About</a>
+          <a href="#qualification" class="nav-item nav-link">Quality</a>
+          <a href="#skill" class="nav-item nav-link">Skill</a>
+          <a href="#service" class="nav-item nav-link">Badges</a>
+          <a href="#portfolio" class="nav-item nav-link">Portfolio</a>
+          <!-- <a href="#testimonial" class="nav-item nav-link">Review</a>-->
+          <a href="#contact" class="nav-item nav-link">Contact</a>
         </div>
+        <a
+          href="#contact"
+          class="btn btn-menu d-none d-lg-block"
+          style="background-color: #242424; color: #ffffff"
+          >Hire Me</a
+        >
+      </div>
     </nav>
     <!-- Navbar End -->
 
- 
-
     <!-- Header Start -->
-    <div class="container-fluid  d-flex align-items-center mb-5 py-5" id="home" style="min-height: 100vh;background-color: #242424;">
-        <div class="container">
-            <div class="row align-items-center">
-               
-                <div class="col-lg-7 text-center text-lg-left">
-                    <h3 class="text-white font-weight-normal mb-3">Hello, my name</h3>
-                    <h1 class="display-3 text-uppercase text-primary mb-2" style="-webkit-text-stroke: 4px #ffffff;">AJAY K J</h1>
-                    <h1 class="typed-text-output d-inline font-weight-lighter text-white"></h1>
-                    <div class="typed-text d-none">Web Designer, Web Developer, Front End Developer, Back End Developer</div>
-                    <div class="d-flex align-items-center justify-content-center justify-content-lg-start pt-5">
-                     <!--<a href="pdf/ajay.pdf" class="btn btn-white mr-4" download="AJAY-Resume">Download CV</a>-->
-                        
-                        <a href="#contact" class="btn btn-blue d-none d-sm-block">Hire me</a>
-                    </div>
-                </div>
-                <div class="col-lg-6 px-8 pl-lg-0 pb-5 pb-lg-4 about-img">
-                    <img class="img-fluid w-100 rounded-circle shadow-sm" src="img/profile.jpg" alt="">
-                </div>
+    <div
+      class="container-fluid d-flex align-items-center mb-5 py-5"
+      id="home"
+      style="min-height: 100vh; background-color: #242424"
+    >
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-lg-7 text-center text-lg-left">
+            <h3 class="text-white font-weight-normal mb-3">Hello, my name</h3>
+            <h1
+              class="display-3 text-uppercase text-primary mb-2"
+              style="-webkit-text-stroke: 4px #ffffff"
+            >
+              AJAY K J
+            </h1>
+            <h1
+              class="typed-text-output d-inline font-weight-lighter text-white"
+            ></h1>
+            <div class="typed-text d-none">
+              Web Designer, Web Developer, Front End Developer, Back End
+              Developer
             </div>
+            <div
+              class="
+                d-flex
+                align-items-center
+                justify-content-center justify-content-lg-start
+                pt-5
+              "
+            >
+              <!--<a href="pdf/ajay.pdf" class="btn btn-white mr-4" download="AJAY-Resume">Download CV</a>-->
+
+              <a href="#contact" class="btn btn-blue d-none d-sm-block"
+                >Hire me</a
+              >
+            </div>
+          </div>
+          <div class="col-lg-6 px-8 pl-lg-0 pb-5 pb-lg-4 about-img">
+            <img
+              class="img-fluid w-100 rounded-circle shadow-sm"
+              src="img/profile.jpg"
+              alt=""
+            />
+          </div>
         </div>
+      </div>
     </div>
     <!-- Header End -->
 
-
     <!-- About Start -->
     <div class="container-fluid py-5" id="about">
-        <div class="container">
-            <div class="position-relative d-flex align-items-center justify-content-center">
-                <h1 class="display-1 text-uppercase text-white" style="-webkit-text-stroke: 1px #dee2e6;">About</h1>
-                <h1 class="position-absolute text-uppercase text-dark ">About Me</h1>
-            </div>
-            <div class="row align-items-center">
-                <div class="col-lg-5 pb-4 pb-lg-0">
-                    <img class="img-fluid rounded w-100" src="img/about.JPG" alt="">
-                </div>
-                <div class="col-lg-7">
-                    <h3 class="mb-4">UI Designer & Web Developer</h3>
-                    <p> Passionate web developer who always looking for opportunities to enhance knowledge and capabilities.
-                         Developed an e-commerce website while at National Skill Training Institute, Calicut.</p>
-                    <div class="row mb-3">
-                        <div class="col-sm-6 py-2"><h6>Name: <span class="text-secondary">AJAY K J</span></h6></div>
-                        <div class="col-sm-6 py-2"><h6>Birthday: <span class="text-secondary">21 June 1995</span></h6></div>
-                   <!--<div class="col-sm-6 py-2"><h6>Degree: <span class="text-secondary">Master</span></h6></div>
-                        <div class="col-sm-6 py-2"><h6>Experience: <span class="text-secondary">10 Years</span></h6></div>-->
-                        <div class="col-sm-6 py-2"><h6>Phone: <span class="text-secondary">+91 7736389459</span></h6></div>
-                        <div class="col-sm-6 py-2"><h6>Email: <span class="text-secondary">kjajay6@gmail.com</span></h6></div>
-                        <div class="col-sm-6 py-2"><h6>Address: <span class="text-secondary">Kattiparambil(h), Kunnamangalam, calicut-563671</span></h6></div>
-                        <div class="col-sm-6 py-2"><h6>Freelance: <span class="text-secondary">Available</span></h6></div>
-                    </div>
-                    <a href="#contact" class="btn blues btn-outline-primary mr-4">Hire Me</a>
-             
-                </div>
-            </div>
+      <div class="container">
+        <div
+          class="
+            position-relative
+            d-flex
+            align-items-center
+            justify-content-center
+          "
+        >
+          <h1
+            class="display-1 text-uppercase text-white"
+            style="-webkit-text-stroke: 1px #dee2e6"
+          >
+            About
+          </h1>
+          <h1 class="position-absolute text-uppercase text-dark">About Me</h1>
         </div>
+        <div class="row align-items-center">
+          <div class="col-lg-5 pb-4 pb-lg-0">
+            <img class="img-fluid rounded w-100" src="img/about.JPG" alt="" />
+          </div>
+          <div class="col-lg-7">
+            <h3 class="mb-4">UI Designer & Web Developer</h3>
+            <p>
+              Passionate web developer who always looking for opportunities to
+              enhance knowledge and capabilities. Developed an e-commerce
+              website while at National Skill Training Institute, Calicut.
+            </p>
+            <div class="row mb-3">
+              <div class="col-sm-6 py-2">
+                <h6>Name: <span class="text-secondary">AJAY K J</span></h6>
+              </div>
+              <div class="col-sm-6 py-2">
+                <h6>
+                  Birthday: <span class="text-secondary">21 June 1995</span>
+                </h6>
+              </div>
+              <!--<div class="col-sm-6 py-2"><h6>Degree: <span class="text-secondary">Master</span></h6></div>
+                        <div class="col-sm-6 py-2"><h6>Experience: <span class="text-secondary">10 Years</span></h6></div>-->
+              <div class="col-sm-6 py-2">
+                <h6>
+                  Phone: <span class="text-secondary">+91 7736389459</span>
+                </h6>
+              </div>
+              <div class="col-sm-6 py-2">
+                <h6>
+                  Email: <span class="text-secondary">kjajay6@gmail.com</span>
+                </h6>
+              </div>
+              <div class="col-sm-6 py-2">
+                <h6>
+                  Address:
+                  <span class="text-secondary"
+                    >Kattiparambil(h), Kunnamangalam, calicut-563671</span
+                  >
+                </h6>
+              </div>
+              <div class="col-sm-6 py-2">
+                <h6>
+                  Freelance: <span class="text-secondary">Available</span>
+                </h6>
+              </div>
+            </div>
+            <a href="#contact" class="btn blues btn-outline-primary mr-4"
+              >Hire Me</a
+            >
+          </div>
+        </div>
+      </div>
     </div>
     <!-- About End -->
 
-
-    
     <!-- Skill Start -->
     <div class="container-fluid py-5" id="skill">
-        <div class="container">
-            <div class="position-relative d-flex align-items-center justify-content-center">
-                <h1 class="display-1 text-uppercase text-white" style="-webkit-text-stroke: 1px #dee2e6;">Skills</h1>
-                <h1 class="position-absolute text-uppercase text-dark">My Skills</h1>
-            </div>
-            <div class="row align-items-center">
-                <div class="col-md-6">
-                    <div class="skill mb-4">
-                        <div class="d-flex justify-content-between">
-                            <h6 class="font-weight-bold">HTML</h6>
-                            <h6 class="font-weight-bold">90%</h6>
-                        </div>
-                        <div class="progress">
-                            <div style="height: 8px;" class="progress-bar bg-primary" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
-                        </div>
-                    </div>
-                    <div class="skill mb-4">
-                        <div class="d-flex justify-content-between">
-                            <h6 class="font-weight-bold">CSS</h6>
-                            <h6 class="font-weight-bold">90%</h6>
-                        </div>
-                        <div class="progress">
-                            <div style="height: 8px;"class="progress-bar bg-warning" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
-                        </div>
-                    </div>
-
-                    <div class="skill mb-4">
-                        <div class="d-flex justify-content-between">
-                            <h6 class="font-weight-bold">PHP</h6>
-                            <h6 class="font-weight-bold">85%</h6>
-                        </div>
-                        <div class="progress">
-                            <div style="height: 8px;"class="progress-bar bg-danger" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
-                        </div>
-                    </div>
-                    <div class="skill mb-4">
-                        <div class="d-flex justify-content-between">
-                            <h6 class="font-weight-bold">MySQL</h6>
-                            <h6 class="font-weight-bold">90%</h6>
-                        </div>
-                        <div class="progress">
-                            <div style="height: 8px;"class="progress-bar bg-secondary" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
-                        </div>
-                    </div>
-
-
-                </div>
-
-
-                <div class="col-md-6">
-
-                    <div class="skill mb-4">
-                        <div class="d-flex justify-content-between">
-                            <h6 class="font-weight-bold">Mongo db</h6>
-                            <h6 class="font-weight-bold">75%</h6>
-                        </div>
-                        <div class="progress">
-                            <div style="height: 8px;"class="progress-bar bg-secondary" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
-                        </div>
-                    </div>
-
-                    <div class="skill mb-4">
-                        <div class="d-flex justify-content-between">
-                            <h6 class="font-weight-bold">Javascript</h6>
-                            <h6 class="font-weight-bold">75%</h6>
-                        </div>
-                        <div class="progress">
-                            <div style="height: 8px;"class="progress-bar bg-danger" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
-                        </div>
-                    </div>
-                    <div class="skill mb-4">
-                        <div class="d-flex justify-content-between">
-                            <h6 class="font-weight-bold">Laravel</h6>
-                            <h6 class="font-weight-bold">70%</h6>
-                        </div>
-                        <div class="progress">
-                            <div style="height: 8px;"class="progress-bar bg-dark" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
-                        </div>
-                    </div>
-                    <div class="skill mb-4">
-                        <div class="d-flex justify-content-between">
-                            <h6 class="font-weight-bold">Wordpress</h6>
-                            <h6 class="font-weight-bold">70%</h6>
-                        </div>
-                        <div class="progress">
-                            <div style="height: 8px;"class="progress-bar bg-info" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
-                        </div>
-                    </div>
-                    
-                </div>
-            </div>
+      <div class="container">
+        <div
+          class="
+            position-relative
+            d-flex
+            align-items-center
+            justify-content-center
+          "
+        >
+          <h1
+            class="display-1 text-uppercase text-white"
+            style="-webkit-text-stroke: 1px #dee2e6"
+          >
+            Skills
+          </h1>
+          <h1 class="position-absolute text-uppercase text-dark">My Skills</h1>
         </div>
+        <div class="row align-items-center">
+          <div class="col-md-6">
+            <div class="skill mb-4">
+              <div class="d-flex justify-content-between">
+                <h6 class="font-weight-bold">HTML</h6>
+                <h6 class="font-weight-bold">90%</h6>
+              </div>
+              <div class="progress">
+                <div
+                  style="height: 8px"
+                  class="progress-bar bg-primary"
+                  role="progressbar"
+                  aria-valuenow="90"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                ></div>
+              </div>
+            </div>
+            <div class="skill mb-4">
+              <div class="d-flex justify-content-between">
+                <h6 class="font-weight-bold">CSS</h6>
+                <h6 class="font-weight-bold">90%</h6>
+              </div>
+              <div class="progress">
+                <div
+                  style="height: 8px"
+                  class="progress-bar bg-warning"
+                  role="progressbar"
+                  aria-valuenow="90"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                ></div>
+              </div>
+            </div>
+
+            <div class="skill mb-4">
+              <div class="d-flex justify-content-between">
+                <h6 class="font-weight-bold">PHP</h6>
+                <h6 class="font-weight-bold">85%</h6>
+              </div>
+              <div class="progress">
+                <div
+                  style="height: 8px"
+                  class="progress-bar bg-danger"
+                  role="progressbar"
+                  aria-valuenow="85"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                ></div>
+              </div>
+            </div>
+            <div class="skill mb-4">
+              <div class="d-flex justify-content-between">
+                <h6 class="font-weight-bold">MySQL</h6>
+                <h6 class="font-weight-bold">90%</h6>
+              </div>
+              <div class="progress">
+                <div
+                  style="height: 8px"
+                  class="progress-bar bg-secondary"
+                  role="progressbar"
+                  aria-valuenow="90"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                ></div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6">
+            <div class="skill mb-4">
+              <div class="d-flex justify-content-between">
+                <h6 class="font-weight-bold">Mongo db</h6>
+                <h6 class="font-weight-bold">75%</h6>
+              </div>
+              <div class="progress">
+                <div
+                  style="height: 8px"
+                  class="progress-bar bg-secondary"
+                  role="progressbar"
+                  aria-valuenow="75"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                ></div>
+              </div>
+            </div>
+
+            <div class="skill mb-4">
+              <div class="d-flex justify-content-between">
+                <h6 class="font-weight-bold">Javascript</h6>
+                <h6 class="font-weight-bold">75%</h6>
+              </div>
+              <div class="progress">
+                <div
+                  style="height: 8px"
+                  class="progress-bar bg-danger"
+                  role="progressbar"
+                  aria-valuenow="75"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                ></div>
+              </div>
+            </div>
+            <div class="skill mb-4">
+              <div class="d-flex justify-content-between">
+                <h6 class="font-weight-bold">Laravel</h6>
+                <h6 class="font-weight-bold">70%</h6>
+              </div>
+              <div class="progress">
+                <div
+                  style="height: 8px"
+                  class="progress-bar bg-dark"
+                  role="progressbar"
+                  aria-valuenow="70"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                ></div>
+              </div>
+            </div>
+            <div class="skill mb-4">
+              <div class="d-flex justify-content-between">
+                <h6 class="font-weight-bold">Wordpress</h6>
+                <h6 class="font-weight-bold">70%</h6>
+              </div>
+              <div class="progress">
+                <div
+                  style="height: 8px"
+                  class="progress-bar bg-info"
+                  role="progressbar"
+                  aria-valuenow="70"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                ></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
     <!-- Skill End -->
 
-
-
-
     <!-- Qualification Start -->
     <div class="container-fluid py-5" id="qualification">
-        <div class="container">
-            <div class="position-relative d-flex align-items-center justify-content-center">
-                <h1 class="display-1 text-uppercase text-white" style="-webkit-text-stroke: 1px #dee2e6;">Quality</h1>
-                <h1 class="position-absolute text-uppercase text-dark">Education & Expericence</h1>
-            </div>
-            <div class="row align-items-center">
-                <div class="col-lg-6">
-                    <h3 class="mb-4">My Education</h3>
-                    <div class="border-left border-primary pt-2 pl-4 ml-2">
-                        <div class="position-relative ex-me mb-4">
-                            <i class="far fa-dot-circle text-primary position-absolute" style="top: 2px; left: -35px; font-size: 22px;"></i>
-                            <h5 class="font-weight-bold mb-1">Advanced Diploma in IT </h5>
-                            <p class="mb-2"><strong>NSTI Calicut</strong> | <small>2019 - present</small></p>
-                            <p> </p>
-                        </div>
-                        <div class="position-relative ex-me mb-4">
-                            <i class="far fa-dot-circle text-primary position-absolute" style="top: 2px; left: -35px;  font-size: 22px;"></i>
-                            <h5 class="font-weight-bold mb-1">ITI as Industrial Electrician</h5>
-                            <p class="mb-2"><strong>NSTI Calicut</strong> | <small>2013 - 2015</small></p>
-                            <p> </p>
-                        </div>
-                        <div class="position-relative ex-me mb-4">
-                            <i class="far fa-dot-circle text-primary position-absolute" style="top: 2px; left: -35px;  font-size: 22px;"></i>
-                            <h5 class="font-weight-bold mb-1">Higher Secondary</h5>
-                            <p class="mb-2"><strong>HSS Kunnamangalam</strong> | <small>2011 - 2013</small></p>
-                            <p> </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-6">
-                    <h3 class="mb-4">My Expericence</h3>
-                    <div class="border-left border-primary pt-2 pl-4 ml-2">
-                        <div class="position-relative ex-me mb-4">
-                            <i class="far fa-dot-circle text-primary position-absolute" style="top: 2px;left: -35px;  font-size: 22px;"></i>
-                            <h5 class="font-weight-bold mb-1">wordpress website</h5>
-                            <p class="mb-2"><strong>College Project</strong> | <small> 2020</small></p>
-                            <p> </p>
-                        </div>
-                        <div class="position-relative ex-me mb-4">
-                            <i class="far fa-dot-circle text-primary position-absolute" style="top: 2px;left: -35px;  font-size: 22px;"></i>
-                            <h5 class="font-weight-bold mb-1">Aquaman website</h5>
-                            <p class="mb-2"><strong>Freelance</strong> | <small> 2020</small></p>
-                            <p> </p>
-                        </div>
-                        <div class="position-relative ex-me mb-4">
-                            <i class="far fa-dot-circle text-primary position-absolute" style="top: 2px;left: -35px;  font-size: 22px;"></i>
-                            <h5 class="font-weight-bold mb-1">portfolio website</h5>
-                            <p class="mb-2"><strong>Freelance</strong> | <small> 2020</small></p>
-                            <p> </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
+      <div class="container">
+        <div
+          class="
+            position-relative
+            d-flex
+            align-items-center
+            justify-content-center
+          "
+        >
+          <h1
+            class="display-1 text-uppercase text-white"
+            style="-webkit-text-stroke: 1px #dee2e6"
+          >
+            Quality
+          </h1>
+          <h1 class="position-absolute text-uppercase text-dark">
+            Education & Expericence
+          </h1>
         </div>
+        <div class="row align-items-center">
+          <div class="col-lg-6">
+            <h3 class="mb-4">My Education</h3>
+            <div class="border-left border-primary pt-2 pl-4 ml-2">
+              <div class="position-relative ex-me mb-4">
+                <i
+                  class="far fa-dot-circle text-primary position-absolute"
+                  style="top: 2px; left: -35px; font-size: 22px"
+                ></i>
+                <h5 class="font-weight-bold mb-1">Advanced Diploma in IT</h5>
+                <p class="mb-2">
+                  <strong>NSTI Calicut</strong> | <small>2019 - present</small>
+                </p>
+                <p></p>
+              </div>
+              <div class="position-relative ex-me mb-4">
+                <i
+                  class="far fa-dot-circle text-primary position-absolute"
+                  style="top: 2px; left: -35px; font-size: 22px"
+                ></i>
+                <h5 class="font-weight-bold mb-1">
+                  ITI as Industrial Electrician
+                </h5>
+                <p class="mb-2">
+                  <strong>NSTI Calicut</strong> | <small>2013 - 2015</small>
+                </p>
+                <p></p>
+              </div>
+              <div class="position-relative ex-me mb-4">
+                <i
+                  class="far fa-dot-circle text-primary position-absolute"
+                  style="top: 2px; left: -35px; font-size: 22px"
+                ></i>
+                <h5 class="font-weight-bold mb-1">Higher Secondary</h5>
+                <p class="mb-2">
+                  <strong>HSS Kunnamangalam</strong> |
+                  <small>2011 - 2013</small>
+                </p>
+                <p></p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <h3 class="mb-4">My Expericence</h3>
+            <div class="border-left border-primary pt-2 pl-4 ml-2">
+              <div class="position-relative ex-me mb-4">
+                <i
+                  class="far fa-dot-circle text-primary position-absolute"
+                  style="top: 2px; left: -35px; font-size: 22px"
+                ></i>
+                <h5 class="font-weight-bold mb-1">wordpress website</h5>
+                <p class="mb-2">
+                  <strong>College Project</strong> | <small> 2020</small>
+                </p>
+                <p></p>
+              </div>
+              <div class="position-relative ex-me mb-4">
+                <i
+                  class="far fa-dot-circle text-primary position-absolute"
+                  style="top: 2px; left: -35px; font-size: 22px"
+                ></i>
+                <h5 class="font-weight-bold mb-1">Aquaman website</h5>
+                <p class="mb-2">
+                  <strong>Freelance</strong> | <small> 2020</small>
+                </p>
+                <p></p>
+              </div>
+              <div class="position-relative ex-me mb-4">
+                <i
+                  class="far fa-dot-circle text-primary position-absolute"
+                  style="top: 2px; left: -35px; font-size: 22px"
+                ></i>
+                <h5 class="font-weight-bold mb-1">portfolio website</h5>
+                <p class="mb-2">
+                  <strong>Freelance</strong> | <small> 2020</small>
+                </p>
+                <p></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
     <!-- Qualification End -->
 
-
-
     <!-- Services Start -->
     <div class="container-fluid pt-5" id="service">
-        <div class="container">
-            <div class="service-h4 position-relative d-flex align-items-center justify-content-center">
-                <h1 class="display-1 text-uppercase text-white" style="-webkit-text-stroke: 1px #dee2e6;">Badges</h1>
-                <h1 class="position-absolute text-uppercase text-dark">My Badges</h1>
-            </div>
-            <div class="row pb-3">
-                <div class="service-box col-lg-4 col-md-6 text-center mb-5">
-                    <div class="d-flex align-items-center justify-content-center mb-4">
-                      
-                    </div>
-                    <h4 class="font-weight-bold mb-1">Cybersecurity Fundementals</h4>
-                    <img  class="img-fluid" src="img/badges/Cybersecurity-Fundementals.png" alt="" width="150px" height="150px">
-          
-                </div>
-                <div class="service-box col-lg-3 col-md-6 text-center mb-5">
-                    <div class="d-flex align-items-center justify-content-center mb-4">
-                      
-                    </div>
-                    <h4 class="font-weight-bold mb-1">Practitioner</h4>
-                    <img  class="img-fluid" src="img/badges/Practitioner.png" alt="" width="150px" height="150px">
+      <div class="container">
+        <div
+          class="
+            service-h4
+            position-relative
+            d-flex
+            align-items-center
+            justify-content-center
+          "
+        >
+          <h1
+            class="display-1 text-uppercase text-white"
+            style="-webkit-text-stroke: 1px #dee2e6"
+          >
+            Badges
+          </h1>
+          <h1 class="position-absolute text-uppercase text-dark">My Badges</h1>
+        </div>
+        <div class="row pb-3">
+          <div class="service-box col-lg-4 col-md-6 text-center mb-5">
+            <div
+              class="d-flex align-items-center justify-content-center mb-4"
+            ></div>
+            <h4 class="font-weight-bold mb-1">Cybersecurity Fundementals</h4>
+            <img
+              class="img-fluid"
+              src="img/badges/Cybersecurity-Fundementals.png"
+              alt=""
+              width="150px"
+              height="150px"
+            />
           </div>
-                <div class="service-box col-lg-4 col-md-6 text-center mb-5">
-                    <div class="d-flex align-items-center justify-content-center mb-4">
-                      
-                    </div>
-                    <h4 class="font-weight-bold mb-1">Artificial Intelligence</h4>
-                    <img  class="img-fluid" src="img/badges/Team_Essentials.png" alt="" width="150px" height="150px">
+          <div class="service-box col-lg-3 col-md-6 text-center mb-5">
+            <div
+              class="d-flex align-items-center justify-content-center mb-4"
+            ></div>
+            <h4 class="font-weight-bold mb-1">Practitioner</h4>
+            <img
+              class="img-fluid"
+              src="img/badges/Practitioner.png"
+              alt=""
+              width="150px"
+              height="150px"
+            />
           </div>
           <div class="service-box col-lg-4 col-md-6 text-center mb-5">
-            <div class="d-flex align-items-center justify-content-center mb-4">
-              
-            </div>
+            <div
+              class="d-flex align-items-center justify-content-center mb-4"
+            ></div>
+            <h4 class="font-weight-bold mb-1">Artificial Intelligence</h4>
+            <img
+              class="img-fluid"
+              src="img/badges/Team_Essentials.png"
+              alt=""
+              width="150px"
+              height="150px"
+            />
+          </div>
+          <div class="service-box col-lg-4 col-md-6 text-center mb-5">
+            <div
+              class="d-flex align-items-center justify-content-center mb-4"
+            ></div>
             <h4 class="font-weight-bold mb-1">Professional Skills</h4>
-            <img  class="img-fluid" src="img/badges/Professional_Skills.png" alt="" width="150px" height="150px">
-  
-        </div>
-        <div class="service-box col-lg-3 col-md-6 text-center mb-5">
-            <div class="d-flex align-items-center justify-content-center mb-4">
-              
-            </div>
+            <img
+              class="img-fluid"
+              src="img/badges/Professional_Skills.png"
+              alt=""
+              width="150px"
+              height="150px"
+            />
+          </div>
+          <div class="service-box col-lg-3 col-md-6 text-center mb-5">
+            <div
+              class="d-flex align-items-center justify-content-center mb-4"
+            ></div>
             <h4 class="font-weight-bold mb-1">Own Chatbot</h4>
-            <img  class="img-fluid" src="img/badges/own_chatbot.png" alt="" width="150px" height="150px">
-  </div>
-        <div class="service-box col-lg-4 col-md-6 text-center mb-5">
-            <div class="d-flex align-items-center justify-content-center mb-4">
-              
-            </div>
+            <img
+              class="img-fluid"
+              src="img/badges/own_chatbot.png"
+              alt=""
+              width="150px"
+              height="150px"
+            />
+          </div>
+          <div class="service-box col-lg-4 col-md-6 text-center mb-5">
+            <div
+              class="d-flex align-items-center justify-content-center mb-4"
+            ></div>
             <h4 class="font-weight-bold mb-1">ProblemSolving</h4>
-            <img  class="img-fluid" src="img/badges/ProblemSolving.png" alt="" width="150px" height="150px">
-  </div>
-  
-          
-                <!--
+            <img
+              class="img-fluid"
+              src="img/badges/ProblemSolving.png"
+              alt=""
+              width="150px"
+              height="150px"
+            />
+          </div>
+
+          <!--
                 <div class="service-box col-lg-4 col-md-6 text-center mb-5">
                     <div class="d-flex align-items-center justify-content-center mb-4">
                         <i class="fab fa-2x fa-apple service-icon bg-primary text-white mr-3"></i>
@@ -357,143 +599,283 @@
                     <p>Justo sit justo eos amet tempor amet clita amet ipsum eos elitr. Amet lorem lorem lorem est amet labore eirmod erat clita</p>
                     <a class="border-bottom border-primary text-decoration-none" href="">Read More</a>
                 </div>-->
-            </div>
         </div>
+      </div>
     </div>
     <!-- Services End -->
 
-
     <!-- Portfolio Start -->
     <div class="container-fluid pt-5 pb-3" id="portfolio">
-        <div class="container">
-            <div class="position-relative d-flex align-items-center justify-content-center">
-                <h1 class="display-1 text-uppercase text-white" style="-webkit-text-stroke: 1px #dee2e6;">Gallery</h1>
-                <h1 class="position-absolute text-uppercase text-dark">My Portfolio</h1>
-             
-
-            </div>
-            <div class="row">
-                <div class="col-12 text-center mb-2">
-                    <ul class="list-inline mb-4" id="portfolio-flters">
-                        <li class="btn btn-sm btn-outline-dark m-1 active"  data-filter="*">All</li>
-                       
-                        <li class="btn btn-sm btn-outline-dark m-1" data-filter=".second">Aquaman website</li>
-                        <li class="btn btn-sm btn-outline-dark m-1" data-filter=".first">wordpress website</li>
-                        <li class="btn btn-sm btn-outline-dark m-1" data-filter=".third">portfolio website</li>
-                    </ul>
-                </div>
-            </div>
-            <div class="row portfolio-container">
-                <div class="col-lg-4 col-md-6 mb-4 portfolio-item first">
-                    <div class="position-relative overflow-hidden mb-2">
-                        <img class="img-fluid rounded w-100" src="img/portfolio-1.JPG" alt="">
-                        <div class="portfolio-btn bg-light d-flex align-items-center justify-content-center">
-                            <a href="img/portfolio-1.jpg" data-lightbox="portfolio">
-                                <i class="fa fa-plus text-dark" style="font-size: 20px;"></i>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 mb-4 portfolio-item second">
-                    <div class="position-relative overflow-hidden mb-2">
-                        <img class="img-fluid rounded w-100" src="img/portfolio-2.JPG" alt="">
-                        <div class="portfolio-btn bg-light d-flex align-items-center justify-content-center">
-                            <a href="img/portfolio-2.jpg" data-lightbox="portfolio">
-                                <i class="fa fa-plus text-dark" style="font-size: 20px;"></i>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 mb-4 portfolio-item third">
-                    <div class="position-relative overflow-hidden mb-2">
-                        <img class="img-fluid rounded w-100" src="img/portfolio-3.JPG" alt="">
-                        <div class="portfolio-btn bg-light d-flex align-items-center justify-content-center">
-                            <a href="img/portfolio-3.jpg" data-lightbox="portfolio">
-                                <i class="fa fa-plus text-dark" style="font-size: 20px;"></i>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 mb-4 portfolio-item first">
-                    <div class="position-relative overflow-hidden mb-2">
-                        <img class="img-fluid rounded w-100" src="img/portfolio-4.JPG" alt="">
-                        <div class="portfolio-btn bg-light d-flex align-items-center justify-content-center">
-                            <a href="img/portfolio-4.jpg" data-lightbox="portfolio">
-                                <i class="fa fa-plus text-dark" style="font-size: 20px;"></i>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 mb-4 portfolio-item first">
-                    <div class="position-relative overflow-hidden mb-2">
-                        <img class="img-fluid rounded w-100" src="img/portfolio-12.JPG" alt="">
-                        <div class="portfolio-btn bg-light d-flex align-items-center justify-content-center">
-                            <a href="img/portfolio-4.jpg" data-lightbox="portfolio">
-                                <i class="fa fa-plus text-dark" style="font-size: 20px;"></i>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 mb-4 portfolio-item second">
-                    <div class="position-relative overflow-hidden mb-2">
-                        <img class="img-fluid rounded w-100" src="img/portfolio-5.JPG" alt="">
-                        <div class="portfolio-btn bg-light d-flex align-items-center justify-content-center">
-                            <a href="img/portfolio-5.jpg" data-lightbox="portfolio">
-                                <i class="fa fa-plus text-dark" style="font-size: 20px;"></i>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 mb-4 portfolio-item second">
-                    <div class="position-relative overflow-hidden mb-2">
-                        <img class="img-fluid rounded w-100" src="img/portfolio-9.JPG" alt="">
-                        <div class="portfolio-btn bg-light d-flex align-items-center justify-content-center">
-                            <a href="img/portfolio-5.jpg" data-lightbox="portfolio">
-                                <i class="fa fa-plus text-dark" style="font-size: 20px;"></i>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 mb-4 portfolio-item second">
-                    <div class="position-relative overflow-hidden mb-2">
-                        <img class="img-fluid rounded w-100" src="img/portfolio-10.JPG" alt="">
-                        <div class="portfolio-btn bg-light d-flex align-items-center justify-content-center">
-                            <a href="img/portfolio-5.jpg" data-lightbox="portfolio">
-                                <i class="fa fa-plus text-dark" style="font-size: 20px;"></i>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 mb-4 portfolio-item third">
-                    <div class="position-relative overflow-hidden mb-2">
-                        <img class="img-fluid rounded w-100" src="img/portfolio-6.JPG" alt="">
-                        <div class="portfolio-btn bg-light d-flex align-items-center justify-content-center">
-                            <a href="img/portfolio-6.jpg" data-lightbox="portfolio">
-                                <i class="fa fa-plus text-dark" style="font-size: 20px;"></i>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 mb-4 portfolio-item third">
-                    <div class="position-relative overflow-hidden mb-2">
-                        <img class="img-fluid rounded w-100" src="img/portfolio-11.JPG" alt="">
-                        <div class="portfolio-btn bg-light d-flex align-items-center justify-content-center">
-                            <a href="img/portfolio-6.jpg" data-lightbox="portfolio">
-                                <i class="fa fa-plus text-dark" style="font-size: 20px;"></i>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
+      <div class="container">
+        <div
+          class="
+            position-relative
+            d-flex
+            align-items-center
+            justify-content-center
+          "
+        >
+          <h1
+            class="display-1 text-uppercase text-white"
+            style="-webkit-text-stroke: 1px #dee2e6"
+          >
+            Gallery
+          </h1>
+          <h1 class="position-absolute text-uppercase text-dark">
+            My Portfolio
+          </h1>
         </div>
+        <div class="row">
+          <div class="col-12 text-center mb-2">
+            <ul class="list-inline mb-4" id="portfolio-flters">
+              <li
+                class="btn btn-sm btn-outline-dark m-1 active"
+                data-filter="*"
+              >
+                All
+              </li>
+
+              <li class="btn btn-sm btn-outline-dark m-1" data-filter=".second">
+                Aquaman website
+              </li>
+              <li class="btn btn-sm btn-outline-dark m-1" data-filter=".first">
+                wordpress website
+              </li>
+              <li class="btn btn-sm btn-outline-dark m-1" data-filter=".third">
+                portfolio website
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="row portfolio-container">
+          <div class="col-lg-4 col-md-6 mb-4 portfolio-item first">
+            <div class="position-relative overflow-hidden mb-2">
+              <img
+                class="img-fluid rounded w-100"
+                src="img/portfolio-1.JPG"
+                alt=""
+              />
+              <div
+                class="
+                  portfolio-btn
+                  bg-light
+                  d-flex
+                  align-items-center
+                  justify-content-center
+                "
+              >
+                <a href="img/portfolio-1.jpg" data-lightbox="portfolio">
+                  <i class="fa fa-plus text-dark" style="font-size: 20px"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 mb-4 portfolio-item second">
+            <div class="position-relative overflow-hidden mb-2">
+              <img
+                class="img-fluid rounded w-100"
+                src="img/portfolio-2.JPG"
+                alt=""
+              />
+              <div
+                class="
+                  portfolio-btn
+                  bg-light
+                  d-flex
+                  align-items-center
+                  justify-content-center
+                "
+              >
+                <a href="img/portfolio-2.jpg" data-lightbox="portfolio">
+                  <i class="fa fa-plus text-dark" style="font-size: 20px"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 mb-4 portfolio-item third">
+            <div class="position-relative overflow-hidden mb-2">
+              <img
+                class="img-fluid rounded w-100"
+                src="img/portfolio-3.JPG"
+                alt=""
+              />
+              <div
+                class="
+                  portfolio-btn
+                  bg-light
+                  d-flex
+                  align-items-center
+                  justify-content-center
+                "
+              >
+                <a href="img/portfolio-3.jpg" data-lightbox="portfolio">
+                  <i class="fa fa-plus text-dark" style="font-size: 20px"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 mb-4 portfolio-item first">
+            <div class="position-relative overflow-hidden mb-2">
+              <img
+                class="img-fluid rounded w-100"
+                src="img/portfolio-4.JPG"
+                alt=""
+              />
+              <div
+                class="
+                  portfolio-btn
+                  bg-light
+                  d-flex
+                  align-items-center
+                  justify-content-center
+                "
+              >
+                <a href="img/portfolio-4.jpg" data-lightbox="portfolio">
+                  <i class="fa fa-plus text-dark" style="font-size: 20px"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 mb-4 portfolio-item first">
+            <div class="position-relative overflow-hidden mb-2">
+              <img
+                class="img-fluid rounded w-100"
+                src="img/portfolio-12.JPG"
+                alt=""
+              />
+              <div
+                class="
+                  portfolio-btn
+                  bg-light
+                  d-flex
+                  align-items-center
+                  justify-content-center
+                "
+              >
+                <a href="img/portfolio-4.jpg" data-lightbox="portfolio">
+                  <i class="fa fa-plus text-dark" style="font-size: 20px"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 mb-4 portfolio-item second">
+            <div class="position-relative overflow-hidden mb-2">
+              <img
+                class="img-fluid rounded w-100"
+                src="img/portfolio-5.JPG"
+                alt=""
+              />
+              <div
+                class="
+                  portfolio-btn
+                  bg-light
+                  d-flex
+                  align-items-center
+                  justify-content-center
+                "
+              >
+                <a href="img/portfolio-5.jpg" data-lightbox="portfolio">
+                  <i class="fa fa-plus text-dark" style="font-size: 20px"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 mb-4 portfolio-item second">
+            <div class="position-relative overflow-hidden mb-2">
+              <img
+                class="img-fluid rounded w-100"
+                src="img/portfolio-9.JPG"
+                alt=""
+              />
+              <div
+                class="
+                  portfolio-btn
+                  bg-light
+                  d-flex
+                  align-items-center
+                  justify-content-center
+                "
+              >
+                <a href="img/portfolio-5.jpg" data-lightbox="portfolio">
+                  <i class="fa fa-plus text-dark" style="font-size: 20px"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 mb-4 portfolio-item second">
+            <div class="position-relative overflow-hidden mb-2">
+              <img
+                class="img-fluid rounded w-100"
+                src="img/portfolio-10.JPG"
+                alt=""
+              />
+              <div
+                class="
+                  portfolio-btn
+                  bg-light
+                  d-flex
+                  align-items-center
+                  justify-content-center
+                "
+              >
+                <a href="img/portfolio-5.jpg" data-lightbox="portfolio">
+                  <i class="fa fa-plus text-dark" style="font-size: 20px"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 mb-4 portfolio-item third">
+            <div class="position-relative overflow-hidden mb-2">
+              <img
+                class="img-fluid rounded w-100"
+                src="img/portfolio-6.JPG"
+                alt=""
+              />
+              <div
+                class="
+                  portfolio-btn
+                  bg-light
+                  d-flex
+                  align-items-center
+                  justify-content-center
+                "
+              >
+                <a href="img/portfolio-6.jpg" data-lightbox="portfolio">
+                  <i class="fa fa-plus text-dark" style="font-size: 20px"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 mb-4 portfolio-item third">
+            <div class="position-relative overflow-hidden mb-2">
+              <img
+                class="img-fluid rounded w-100"
+                src="img/portfolio-11.JPG"
+                alt=""
+              />
+              <div
+                class="
+                  portfolio-btn
+                  bg-light
+                  d-flex
+                  align-items-center
+                  justify-content-center
+                "
+              >
+                <a href="img/portfolio-6.jpg" data-lightbox="portfolio">
+                  <i class="fa fa-plus text-dark" style="font-size: 20px"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
     <!-- Portfolio End -->
 
-
     <!-- Testimonial Start -->
 
-
-  <!--
+    <!--
 
     <div class="container-fluid py-5" id="testimonial">
         <div class="container">
@@ -531,69 +913,128 @@
         </div>
     </div> -->
     <!-- Testimonial End -->
- 
-
 
     <!-- Contact Start -->
     <div class="container-fluid py-5" id="contact">
-        <div class="container">
-            <div class="position-relative d-flex align-items-center justify-content-center">
-                <h1 class="display-1 text-uppercase text-white" style="-webkit-text-stroke: 1px #dee2e6;">Contact</h1>
-                <h1 class="position-absolute text-uppercase ">Contact Me</h1>
-            </div>
-            <div class="row justify-content-center">
-                <div class="col-lg-8">
-                    <div class="contact-form text-center">
-                        <div id="success"></div>
-                        <form name="sentMessage" id="gform" novalidate="novalidate" action="">
-                            <div class="form-row">
-                                <div class="control-group col-sm-6">
-                                    <input type="text" class="form-control p-4" id="name" name="Name" placeholder="Your Name"
-                                        required="required" data-validation-required-message="Please enter your name" />
-                                    <p class="help-block text-danger"></p>
-                                </div>
-                                <div class="control-group col-sm-6">
-                                    <input type="email" class="form-control p-4" id="email" name="Email" placeholder="Your Email"
-                                        required="required" data-validation-required-message="Please enter your email" />
-                                    <p class="help-block text-danger"></p>
-                                </div>
-                            </div>
-                            <div class="control-group">
-                                <input type="text" class="form-control p-4" id="subject" name="Subject" placeholder="Subject"
-                                    required="required" data-validation-required-message="Please enter a subject" />
-                                <p class="help-block text-danger"></p>
-                            </div>
-                            <div class="control-group">
-                                <textarea class="form-control py-3 px-4" rows="5" id="message" name="Message" placeholder="Message"
-                                    required="required"
-                                    data-validation-required-message="Please enter your message"></textarea>
-                                <p class="help-block text-danger"></p>
-                            </div>
-                            <div>
-                                <button class="btn btn-outline-dark" type="submit" id="sendMessageButton">Send
-                                    Message</button>
-                            </div>
-                        </form>
-                    </div>
-                </div>
-            </div>
+      <div class="container">
+        <div
+          class="
+            position-relative
+            d-flex
+            align-items-center
+            justify-content-center
+          "
+        >
+          <h1
+            class="display-1 text-uppercase text-white"
+            style="-webkit-text-stroke: 1px #dee2e6"
+          >
+            Contact
+          </h1>
+          <h1 class="position-absolute text-uppercase">Contact Me</h1>
         </div>
+        <div class="row justify-content-center">
+          <div class="col-lg-8">
+            <div class="contact-form text-center">
+              <div id="success"></div>
+              <form
+                name="sentMessage"
+                id="gform"
+                novalidate="novalidate"
+                action=""
+              >
+                <div class="form-row">
+                  <div class="control-group col-sm-6">
+                    <input
+                      type="text"
+                      class="form-control p-4"
+                      id="name"
+                      name="Name"
+                      placeholder="Your Name"
+                      required="required"
+                      data-validation-required-message="Please enter your name"
+                    />
+                    <span id="Fspan" class="name"></span>
+                    <p class="help-block text-danger"></p>
+                  </div>
+                  <div class="control-group col-sm-6">
+                    <input
+                      type="email"
+                      class="form-control p-4"
+                      id="email"
+                      name="Email"
+                      placeholder="Your Email"
+                      required="required"
+                      data-validation-required-message="Please enter your email"
+                    />
+                    <span id="Fspan" class="email"></span>
+                    <p class="help-block text-danger"></p>
+                  </div>
+                </div>
+                <div class="control-group">
+                  <input
+                    type="text"
+                    class="form-control p-4"
+                    id="subject"
+                    name="Subject"
+                    placeholder="Subject"
+                    required="required"
+                    data-validation-required-message="Please enter a subject"
+                  />
+                  <span id="Fspan" class="subject"></span>
+                  <p class="help-block text-danger"></p>
+                </div>
+                <div class="control-group">
+                  <textarea
+                    class="form-control py-3 px-4"
+                    rows="5"
+                    id="message"
+                    name="Message"
+                    placeholder="Message"
+                    required="required"
+                    data-validation-required-message="Please enter your message"
+                  ></textarea>
+                  <span id="Fspan" class="message"></span>
+                  <p class="help-block text-danger"></p>
+                </div>
+                <div>
+                  <button
+                    class="btn btn-dark"
+                    type="submit"
+                    id="sendMessageButton"
+                  >
+                    Send Message
+                  </button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
     <!-- Contact End -->
 
-
     <!-- Footer Start -->
     <div class="container-fluid bg-dark text-white mt-5 py-1 px-sm-1 px-md-5">
-        <div class="container text-center py-5">
-            <div class="d-flex justify-content-center mb-4">
-                <a class="btn btn-light btn-social mr-2" href="https://github.com/AJAY-K-J"><i class="fab fa-github"></i></a>
-                <a class="btn btn-light btn-social mr-2" href="https://www.linkedin.com/in/ajay-kj"><i class="fab fa-linkedin-in"></i></a>
-
-            </div>
-        
-            <p class="m-0"> <a class="text-white font-weight-bold" href="#">A J </a><a class="text-white font-weight-bold" href="#"></a>
-            </p>
+      <div class="container text-center py-5">
+        <div class="d-flex justify-content-center mb-4">
+          <a
+            class="btn btn-light btn-social mr-2"
+            href="https://github.com/AJAY-K-J"
+            ><i class="fab fa-github"></i
+          ></a>
+          <a
+            class="btn btn-light btn-social mr-2"
+            href="https://www.linkedin.com/in/ajay-kj"
+            ><i class="fab fa-linkedin-in"></i
+          ></a>
         </div>
+
+        <p class="m-0">
+          <a class="text-white font-weight-bold" href="#">A J </a
+          ><a class="text-white font-weight-bold" href="#"></a>
+        </p>
+      </div>
     </div>
     <!-- Footer End -->
 
@@ -601,8 +1042,9 @@
     <i class="fa fa-2x fa-angle-down text-white scroll-to-bottom"></i>
 
     <!-- Back to Top -->
-    <a href="#" class="btn btn-outline-dark px-0 back-to-top"><i class="fa fa-angle-double-up"></i></a>
-
+    <a href="#" class="btn btn-outline-dark px-0 back-to-top"
+      ><i class="fa fa-angle-double-up"></i
+    ></a>
 
     <!-- JavaScript Libraries -->
     <!-- JavaScript Libraries -->
@@ -623,31 +1065,73 @@
     <script src="js/main.js"></script>
 
     <script>
-        $("#gform").submit((e)=>{
-            e.preventDefault()
-            $.ajax({
-                url:"https://script.google.com/macros/s/AKfycbxarqUpvd5OKCCKG3Ij0mXxp3Tg_unRGrkPbTp2E5UKajc6HK4bjGkpP5in9HPHkkp6OQ/exec",
-                 data:$("#gform").serialize(),
-                method:"post",
-                success:function (response){
-                  swal("Thank you for your interest!", "Form submitted successfully!", "success")
-                  .then((value) => {
-                    window.location.reload();
-                  });
-                    
-                    //window.location.reload()
-                    //window.location.href="https://google.com"
-                },
-                error:function (err){
-                    alert("Something Error")
-    
-                }
-            })
-        })
+      $("#gform").submit((e) => {
+        e.preventDefault();
+        if ($("#name").val() == "" || $("#name").val().length <= 2) {
+          $(".name").text("Please enter your name.").show();
+        } else {
+          $(".name").text("");
+        }
+
+        if ($("#email").val() == "" || IsEmail($("#email").val()) == false) {
+          $(".email").text("Please enter your email.").show();
+        } else {
+          $(".email").text("");
+        }
+
+        if ($("#subject").val() == "") {
+          $(".subject").text("Please enter a subject.").show();
+        } else {
+          $(".subject").text("");
+        }
+
+        if ($("#message").val() == "") {
+          $(".message").text("Please enter your message.").show();
+        } else {
+          $(".message").text("");
+        }
+
+        function IsEmail(email) {
+          var regex =
+            /^([a-zA-Z0-9_\.\-\+])+\@(([a-zA-Z0-9\-])+\.)+([a-zA-Z0-9]{2,4})+$/;
+          if (!regex.test(email)) {
+            return false;
+          } else {
+            return true;
+          }
+        }
+
+        if (
+          $(".name").text() == "" &&
+          $(".email").text() == "" &&
+          $(".subject").text() == "" &&
+          $(".message").text() == ""
+        ) {
+          $("#sendMessageButton").attr("disabled", true);
+          $("#sendMessageButton").html(" Sending...");
+
+          $.ajax({
+            url: "https://script.google.com/macros/s/AKfycbxarqUpvd5OKCCKG3Ij0mXxp3Tg_unRGrkPbTp2E5UKajc6HK4bjGkpP5in9HPHkkp6OQ/exec",
+            data: $("#gform").serialize(),
+            method: "post",
+            success: function (response) {
+              swal(
+                "Thank you for your interest!",
+                "Form submitted successfully!",
+                "success"
+              ).then((value) => {
+                window.location.reload();
+              });
+
+              //window.location.reload()
+              //window.location.href="https://google.com"
+            },
+            error: function (err) {
+              alert(" Oops,something went wrong!!");
+            },
+          });
+        }
+      });
     </script>
-
-
-
-</body>
-
+  </body>
 </html>
